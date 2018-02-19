@@ -1,0 +1,543 @@
+﻿.container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 75px 400px 100px 75px;
+    margin: auto;
+    width: 1200px;
+}
+
+section.grid-item.header {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: 20px;
+    text-size-adjust: 125%;
+    letter-spacing: 3px;
+    grid-column: 1;
+    color:white;
+}
+
+
+.nav-bar {
+    margin-left: 700px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    text-align:right;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+   
+}
+
+li {
+    float: left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color: pink;
+        }
+
+section.grid-item.grid-item-2 {
+    grid-column: 1 / span 4;
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    color: white;
+}
+
+section.grid-item.grid-item-3 {
+    grid-column: 5 / span 2;
+    background-image: url('images/Versilia.jpg');
+    background-size:cover;
+}
+
+section.grid-item.grid-item-4 {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+}
+
+section.grid-item.grid-item-5 {
+    grid-column: 1 / span 3;
+    background-color: white;
+}
+
+section.grid-item.grid-item-6 {
+    
+    grid-column: 5 / span 2;
+    background-image: url('images/italy-mountain-villa.jpeg');
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+section.grid-item.grid-item-7 {
+    grid-column: 1 / span 3;
+    background-color: slategrey;
+    height: 200px;
+    width: 600px;
+    margin-top: 150px;
+}
+
+section.grid-item.grid-item-8 {
+    grid-column: 4 / span 2;
+    background-color: slategrey;
+    width: 600px;
+    margin-top: 150px;
+    height: 200px;
+}
+
+section.grid-item.grid-item-9 {
+    grid-column: 1 / span 3;
+    background-image: url('images/modern-villa.jpeg');
+    background-size: cover;
+    width: 300px;
+    height: 170px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+section.grid-item.grid-item-10 {
+    grid-column: 1 / span 3;
+    background-color: white;
+}
+
+section.grid-item.grid-item-11 {
+    grid-column: 1 / span 3;
+    
+}
+
+section.grid-item.grid-item-12 {
+    grid-column: 5 / span 2;
+    background-image: url('images/tuscany-grape-field-nature-51947.jpeg');
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+section.grid-item.grid-item-13 {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+}
+
+
+
+section.grid-item.grid-item-15 {
+    grid-column: 1 / span 2;
+    background-image: url('images/3b-348x348.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 280px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+section.grid-item.grid-item-16 {
+    grid-column: 3 / span 2;
+   
+}
+
+section.grid-item.grid-item-17 {
+    grid-column: 5 / span 2;
+    background-image: url('images/42-348x348.jpg');
+    background-size: cover;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+section.grid-item.grid-item-18 {
+    grid-column: 1 / span 2;
+}
+
+section.grid-item.grid-item-19 {
+    grid-column: 3 / span 2;
+    background-image: url('images/314-348x348.jpg');
+    background-size: cover;
+    margin-left: 10px;
+}
+
+section.grid-item.grid-item-20 {
+    grid-column: 5 / span 2;
+}
+
+section.grid-item.grid-item-21 {
+    grid-column: 1 / span 2;
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    width: 350px;
+    height: 280px;
+    margin-left: 60px;
+}
+
+section.grid-item.grid-item-22 {
+    grid-column: 3 / span 2;
+}
+
+section.grid-item.grid-item-23 {
+    grid-column: 5 / span 2;
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    margin-right: 20px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+}
+
+section.grid-item.grid-item-24 {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+    margin-top: 30px;
+}
+
+section.grid-item.grid-item-25 {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+    margin-top: 30px;
+}
+
+section.grid-item.grid-item-26 {
+    grid-column: 1 / span 6;
+    background-color: slategrey;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.contact {
+    grid-column: 1 / span 2;
+}
+
+.input {
+    grid-column: 5 / span 2;
+   
+}
+
+#input2 {
+    width: 350px;
+}
+
+
+p.center {
+    text-align: center;
+    margin-top: 25%;
+}
+
+h1.center {
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+}
+
+.h3text {
+    text-align: center;
+    background-color: transparent grey;
+    border-color:gray;
+    color: white;
+}
+
+.amm-head1{
+    text-align:left;
+    color:darkblue;
+
+}
+
+.amm-head2 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.amm-head3 {
+    text-align: center;
+    color: darkblue;
+    margin-bottom: 10px;
+}
+
+.amm-head4 {
+    text-align: center;
+    color: darkslateblue;
+}
+
+#location-1 {
+    color: darkblue;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#location-2 {
+    color: white;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+#location-3 {
+    color: darkblue;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.location-text {
+    text-align: left;
+    color: darkblue;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.location-text2 {
+    text-align: left;
+    color: white;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.location-text3 {
+    
+    text-align: left;
+    color: darkblue;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.amm-text1 {
+    text-align: center;
+    color: darkblue;
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.amm-text2 {
+    text-align: center;
+    color: darkblue;
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.amm-text3 {
+    text-align: center;
+    color: darkblue;
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.amm-text4 {
+    text-align: center;
+    color: darkblue;
+    width: 300px;
+    margin-left: 50px;
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+.button-1{
+    text-align:left;
+    color:white;
+    background-color: darkblue;
+}
+
+.button-2 {
+    text-align: left;
+    color: blue;
+    background-color: white;
+}
+
+.button-3 {
+    text-align: left;
+    color: white;
+    background-color: darkblue;
+}
+
+.button-4 {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    
+    margin-bottom: 0px;
+    height: 26px;
+    margin-top: 0px;
+}
+
+.button-5 {
+    align-content: center;
+    text-align: left;
+    color: white;
+    background-color: darkblue;
+   
+}
+
+.button-6 {
+    align-content: center;
+    text-align: left;
+    color: white;
+    background-color: darkblue;
+   
+}
+
+.button-7 {
+    text-align: center;
+    color: white;
+    background-color: darkblue;
+    
+    margin-bottom: 0px;
+    height: 26px;
+    margin-top: 0px;
+    align-content:center;
+}
+
+#contact-button {
+    color: white;
+    background-color: slategrey;
+    grid-column: 6 / span 1;
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    margin-left: 15px;
+    color: white;
+    
+}
+
+.carousel-wrapper {
+    height: 150px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    grid-column: 1 / span 6;
+}
+
+.carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out; 
+}
+
+.arrow {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 50px;
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    background: url("http://dancort.es/assets/img/css-carousel/carousel-arrow-dark.png") 50% 50% / 20px no-repeat;
+}
+
+.arrow-prev {
+    left: 0;
+    width: 50px;
+    height: 150px;
+}
+
+.arrow-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    width: 50px;
+    height: 150px;
+}
+
+.light {
+    color: white;
+}
+
+@media (max-width: 480px) {
+    .arrow, .light .arrow {
+        background-size: 10px;
+        background-position: 10px 50%;
+    }
+}
+
+}
+
+/*Select every element*/
+[id^="item"] {
+    display: none;
+}
+
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+    color: slategray;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.item-2 {
+    color: slategray;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+.item-3 {
+    color: slategray;
+    margin-bottom: 0px;
+    height: 200px;
+}
+
+*:target ~ .item-1 {
+    opacity: 0;
+}
+
+#item-1:target ~ .item-1 {
+    opacity: 1;
+}
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3 {
+    z-index: 3;
+    opacity: 1;
+}
+
+.review{
+    grid-column: 2 / span 3;
+    text-align:center;
+    color:slategrey;
+}
+
+.contact-text{
+    color:slategrey;
+    text-align: left;
+
+}
+
+
+
+
